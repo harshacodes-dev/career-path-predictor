@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>CareerPath Predictor</title>
+
+<style>
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-family: "Segoe UI", Arial, sans-serif;
+}
+
+body{
+  background:#eef3fb;
+}
+
+/* NAVBAR */
+.navbar{
+  background:#1c3f94;
+  color:white;
+  padding:14px 50px;
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+}
+.navbar a {
+    color: white;
+    text-decoration: none;
+  }
+.navbar .logo{
+  font-size:20px;
+  font-weight:600;
+}
+
+.navbar ul{
+  list-style:none;
+  display:flex;
+  gap:25px;
+  font-size:14px;
+  font-color:white;
+}
+
+/* HERO */
+.hero{
+  background:linear-gradient(#3c6fdc,#7fb0ff);
+  text-align:center;
+  color:#fff;
+  padding:70px 20px 90px;
+}
+
+.hero h1{
+  font-size:34px;
+  margin-bottom:10px;
+}
+
+.hero p{
+  font-size:15px;
+  margin-bottom:15px;
+}
+
+.hero em{
+  font-size:17px;
+}
+
+.hero-buttons{
+  margin-top:25px;
+}
+
+.hero-buttons button{
+  padding:12px 24px;
+  border:none;
+  border-radius:6px;
+  font-size:15px;
+  margin:5px;
+  cursor:pointer;
+}
+
+.start{
+  background:#ffc107;
+}
+
+.login{
+  display: inline-block;
+  padding: 10px 20px;
+  background:#1e1e1e;
+  color:#fff;
+  text-decoration: none;
+  border-radius: 6px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+/* INFO BOXES */
+.info{
+  display:flex;
+  justify-content:center;
+  gap:25px;
+  margin-top:-45px;
+}
+
+.info-box{
+  background:#fff;
+  width:300px;
+  padding:18px;
+  border-radius:10px;
+  box-shadow:0 6px 16px rgba(0,0,0,0.15);
+  display:flex;
+  gap:12px;
+  align-items:flex-start;
+}
+
+.info-box h4{
+  font-size:15px;
+  margin-bottom:5px;
+}
+
+/* CARDS */
+.cards{
+  display:flex;
+  justify-content:center;
+  gap:35px;
+  padding:50px;
+}
+
+.card{
+  background:#fff;
+  width:460px;
+  border-radius:14px;
+  overflow:hidden;
+  box-shadow:0 6px 18px rgba(0,0,0,0.15);
+}
+
+.card img{
+  width:100%;
+  height:240px;
+  object-fit:cover;
+}
+
+.card-content{
+  padding:22px;
+}
+
+.card-content h3{
+  margin-bottom:10px;
+}
+
+.card-content p{
+  font-size:14px;
+  margin-bottom:18px;
+}
+
+.card-content button{
+  background:#ffc107;
+  border:none;
+  padding:10px 20px;
+  border-radius:6px;
+  cursor:pointer;
+}
+
+/* WHY */
+.why{
+  text-align:center;
+  padding:40px 20px;
+}
+
+.why h2{
+  margin-bottom:25px;
+}
+
+.why-boxes{
+  display:flex;
+  justify-content:center;
+  gap:25px;
+}
+
+.why-box{
+  background:#fff;
+  width:300px;
+  padding:18px;
+  border-radius:10px;
+  box-shadow:0 5px 14px rgba(0,0,0,0.12);
+  display:flex;
+  gap:12px;
+}
+
+/* BOTTOM */
+.bottom{
+  background:#f6f9ff;
+  padding:60px;
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+}
+
+.bottom-text{
+  width:50%;
+}
+
+.bottom-text h2{
+  margin-bottom:12px;
+}
+
+.bottom img{
+  width:260px;
+}
+
+
+</style>
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+<div class="navbar">
+  <div class="logo">🎓 CareerPath Predictor</div>
+  <ul>
+    <a href="C:\Users\harsh\OneDrive\Desktop\html&css\front48.html">
+    <li>Home</li></a>
+    <a href="C:\Users\harsh\OneDrive\Desktop\html&css\about.html">
+    <li>About Us</li></a>
+    <a href="C:\Users\harsh\OneDrive\Desktop\html&css\pop1314.html">
+    <li>Career Test</li></a>
+    <a href="C:\Users\harsh\OneDrive\Desktop\html&css\contact.html">
+    <li>Contact</li></a>
+    <a href="C:\Users\harsh\OneDrive\Desktop\html&css\review2.html">
+    <li>Review</li></a>
+  </ul>
+</div>
+
+<!-- HERO -->
+<section class="hero">
+  <h1>Career Path Predictor for Students</h1>
+  <p>We help students discover their ideal career paths with personalized guidance and assessments.</p>
+  <em>Discover. Decide. Design Your Career.</em>
+
+  <div class="hero-buttons">
+    <a href="C:\Users\harsh\OneDrive\Desktop\html&css\pop1314.html">
+    <button class="start">🚀 Start Career Test</button></a>
+    <a href="C:\Users\harsh\OneDrive\Desktop\html&css\loginid2.html">
+    <button class="login">🔒 Login</button></a>
+  </div>
+</section>
+
+<!-- INFO -->
+<section class="info">
+  <div class="info-box">
+    <div>📋</div>
+    <div>
+      <h4>Take the Career Test</h4>
+      <p>Answer questions about interests and aptitude.</p>
+    </div>
+  </div>
+
+  <div class="info-box">
+    <div>⏱️</div>
+    <div>
+      <h4>Saves Time & Reduces Confusion</h4>
+      <p>All guidance in one place.</p>
+    </div>
+  </div>
+
+  <div class="info-box">
+    <div>🏆</div>
+    <div>
+      <h4>Career Options</h4>
+      <p>Explore different career fields.</p>
+    </div>
+  </div>
+</section>
+
+<!-- CARDS -->
+<section class="cards">
+  <div class="card">
+    <img src="C:\Users\harsh\OneDrive\Desktop\html&css\portrait-of-a-thoughtful-fifteen-year-old-student.jpg">
+    <div class="card-content">
+      <h3>Career Options After 10th</h3>
+      <p>Science, Commerce, Arts, ITI, Polytechnic and vocational programs.</p>
+      <a href="C:\Users\harsh\OneDrive\Desktop\html&css\option10th5.html">
+      <button>Explore Options</button></a>
+    </div>
+  </div>
+
+  <div class="card">
+    <img src="https://images.unsplash.com/photo-1523580846011-d3a5bc25702b">
+    <div class="card-content">
+      <h3>Career Options After 12th</h3>
+      <p>Engineering, Medical, Management, Design, Law, IT & more.</p>
+      <a href="C:\Users\harsh\OneDrive\Desktop\html&css\option12th2.html">
+      <button>Explore Options</button></a>
+    </div>
+  </div>
+</section>
+
+<!-- WHY -->
+<section class="why">
+  <h2>Why Choose CareerPath Predictor?</h2>
+  <div class="why-boxes">
+    <div class="why-box">🎓 Accurate Guidance</div>
+    <div class="why-box">📘 Clear Guidance After 10th & 12th</div>
+    <div class="why-box">🌐 Explore Multiple Career Options</div>
+  </div>
+</section>
+
+<!-- BOTTOM -->
+<section class="bottom">
+  <div class="bottom-text">
+    <h2>Choose the right career early<br>and build a successful future.</h2>
+    <p>CareerPath Predictor helps students identify strengths and interests.</p>
+  </div>
+  <img src="C:\Users\harsh\OneDrive\Desktop\html&css\depositphotos_25377453-stock-photo-college-student-study-in-the.jpg">
+</section>
+
+
+
+</body>
+</html>
